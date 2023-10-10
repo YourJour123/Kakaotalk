@@ -1,0 +1,89 @@
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <title>채팅 - 케장</title>
+  </head>
+  
+  <body id="chat-screen">
+    <div id="status-bar">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span>서비스없음</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+          <span>11:11</span>
+        </div>
+        <div class="status-bar__column">
+          <i class="fas fa-volume-mute"></i>
+          <span>110%</span> 
+          <i class="fas fa-battery-half"></i>
+        </div>
+      </div>
+    </div>
+  
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="javascript:history.back();">
+          <i class="fas fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">케장</h1>
+      </div>
+      <div class="alt-header__column alt-header__column-chat">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            <span><i class="far fa-calendar-alt"></i>2001년 7월 28일 토요일</span>
+        </div>
+        <div class="message-row">
+          <img src="https://img1.daumcdn.net/thumb/C176x176/?fname=https://t1.daumcdn.net/cfile/tistory/99D2EB3B5C3D7D7C19">
+          <div class="message-row__content">
+            <span class="message__author">케장</span>
+            <div class="message__receive">
+              <span class="message__bubble">머임?</span>
+              <span class="message__send-time">11:11</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row message-row-own">
+          <div class="message-row__content">
+            <div class="message__receive">
+              <span class="message__bubble">머라고?</span>
+              <span class="message__send-time">11:15</span>
+            </div>
+          </div>
+        </div>
+    </main>
+    
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-2x"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="메세지를 입력하세요,,,">
+        <i class="far fa-smile fa-lg"></i>
+          <button>
+            <i class="far fa-arrow-alt-circle-up fa-lg"></i>
+          </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>
+        <div class="explanation">1. F12 누르기<br>2. 동그라미 쳐진곳 클릭</div>
+        <img src="../image/mobile.png">
+      </span>
+    </div>
+
+  </body>
+  
+  </html>

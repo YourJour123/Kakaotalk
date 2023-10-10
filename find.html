@@ -1,0 +1,126 @@
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <title>Find</title>
+  </head>
+  
+  <body>
+    <div id="status-bar">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span>서비스없음</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+          <span>11:11</span>
+        </div>
+        <div class="status-bar__column">  
+          <i class="fas fa-volume-mute"></i>
+          <span>110%</span>
+          <i class="fas fa-battery-half"></i>
+        </div>
+      </div>    
+    </div>
+  
+    <header class="screen-header">
+      <h1 class="screen-header__title">검색</h1>
+        <div class="screen-header__icons">
+          <span><a href="google.com"><i class="fas fa-search fa-lg"></i></span></a>
+          <span><a href="melon.com"><i class="fas fa-music fa-lg"></i></span></a>
+          <span><a href="settings.html"><i class="fas fa-cogs fa-lg"><span class="nav__update"></span></i></span></a>
+        </div>
+    </header>
+  
+    <main class="main-screen">
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fas fa-qrcode"></i>
+          <span>Qr 코드</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-address-book"></i>
+          <span>연락처로 추가</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-fingerprint"></i>
+          <span>ID로 추가</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-paper-plane"></i>
+          <span>초대</span>
+       </div>
+      </div>
+      <div class="recommended-friends">
+        <h6 class="recommended-friends__title">추천 친구</h6>
+        <div class="recommended-friends__profile">
+          <img src="https://mobile.busan.com/nas/wcms/wcms_data/photos/2019/05/23/2019052316490744075_l.jpg" class="recommended-friends__profile-picture">
+        <div>
+          <h4 class="recommended-friends__profile-name">펭구</h4>
+          <input type="button" value="친구 추가" class="recommended-friends__add">
+        </div>
+        </div>
+      </div>
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4>오픈 채팅</h4>
+          <span>오픈 채팅 홈으로 <i class="fas fa-chevron-right fa-xs"></i></span>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">케장콘</h5>
+            <h6 class="open-post__hashtags">#케장 #케로로장재미슴</h6>
+            <div class="open-post__info">
+              <img src="https://i.namu.wiki/i/n4atBQII6by0oOymQaBik4x4Il_1HCBfcDzZwSm_H2iaqKAde_L9RTCReQaHhKv1WPC86DVtPxme9CIp1Ze8ug.webp">
+              <span class="open-post__info-members">1728명</span>
+              <div class="divider"></div>
+              <span class="open-post__info-status">30분 전</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img src="https://item.kakaocdn.net/do/4bf8c39cc298f61fbf9d9a4f2a8d7ac3616b58f7bf017e58d417ccb3283deeb3">
+              <div class="open-post__photo-likes"><i class="fas fa-heart"></i><span>817</span></div>
+            </div>
+      </div>
+    </main>
+  
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">  
+            <i class="fas fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__unread badge">1</span>
+            <i class="fas fa-comments fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fas fa-search fa-2x" style="color: blue;"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__notification"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    
+    <div id="no-mobile">
+      <span>
+        <div class="explanation">1. F12 누르기<br>2. 동그라미 쳐진곳 클릭</div>
+        <img src="../image/mobile.png">
+      </span>
+    </div>
+    
+  </body>
+  
+  </html>

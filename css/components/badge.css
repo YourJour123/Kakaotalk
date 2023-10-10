@@ -1,0 +1,25 @@
+@keyframes badgeanimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.badge {
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  animation: badgeanimation 2s ease-in-out infinite forwards;
+}

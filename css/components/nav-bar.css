@@ -1,0 +1,63 @@
+@keyframes appearbtnanimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: f9f9fa;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.nav__link {
+  position: relative;
+  color: #2e363e;
+}
+
+.nav__unread {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+.nav__notification {
+  display: flex;
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+}
+
+.nav__btn {
+  transform: translateY(80px) rotateX(-360deg);
+  animation: appearbtnanimation 1s ease-in-out forwards;
+}
+
+.nav__btn:nth-child(2) {
+  animation-delay: 0.5s;
+}
+
+.nav__btn:nth-child(3) {
+  animation-delay: 1s;
+}
+
+.nav__btn:last-child {
+  animation-delay: 1.5s;
+}
